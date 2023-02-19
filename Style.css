@@ -1,0 +1,151 @@
+/* 
+
+- Mobile: 375px
+- Desktop: 1440px
+- Font size (paragraph): 15px
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700
+-'Outfit', sans-serif;
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+</style>
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+
+
+/*
+
+
+body
+{
+    background-color: var(--lightgray);
+    font-family: "Outfil", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+
+}
+.container
+{
+
+   max-width: 350px;
+    margin: 0 auto;
+}
+
+.card
+
+{
+    background-color: var(--whitecolor);
+    padding: 18px;
+    border-radius: 17px;
+    text-align: center;
+    margin: 0 1rem;
+    
+}
+
+.card img
+{
+    width: 100%;
+    border-radius: 12px;
+
+}
+
+.text
+{
+    padding: 22px 10px;
+}
+
+.text h2
+{
+    color: var(--darkblue);
+    padding-bottom: 20px;
+}
+
+.text p 
+{
+    color: var(--grayblue);
+}
+
+
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root
+{
+    --whitecolor:hsl(0, 0%, 100%);
+    --lightgray: hsl(212, 45%, 89%);
+    --grayblue: hsl(220, 15%, 55%);
+    --darkblue: hsl(218, 44%, 22%);
+}
+
+*
+{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body
+{
+    background-color: var(--lightgray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfil", sans-serif;
+
+    
+}
+
+.container
+
+{
+
+    margin: 40px auto;
+    padding: 1.25rem;
+    background-color: var(--whitecolor);
+    border-radius: 12px;
+    max-width: 375px;
+
+
+}
+
+.container img
+{
+    border-radius: 12px;
+    width: 100%;
+    
+
+
+}
+
+
+.text h2
+{
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    padding: 1rem;
+    font-size: 23px;
+    min-width: 100%;
+    color: var(--darkblue);
+}
+
+.text p
+{
+
+    color: var(--grayblue);
+    margin: 0 30px;
+    text-align: center;
+    margin-bottom: 2.25rem;
+    margin-top: 0.5rem;
+}
